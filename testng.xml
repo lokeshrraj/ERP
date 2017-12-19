@@ -1,0 +1,16 @@
+<suite name="Suite" parallel="tests">
+<!--   <test name="Win7GC"> -->
+<!--    <parameter name="browser" value="chrome"/> -->
+<!--    <parameter name="IP" value="192.168.43.74"/> -->
+<!--     <packages> -->
+<!--     	<package name="script"/> -->
+<!--     </packages> -->
+<!--   </test>  -->
+  <test name="Win7FF">
+   <parameter name="browser" value="firefox"/>
+   <parameter name="IP" value="192.168.43.74"/>
+    <packages>
+    	<package name="script"/>
+    </packages>
+  </test> 
+ </suite>
